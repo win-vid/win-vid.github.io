@@ -11,7 +11,7 @@ const SocialMedia = () => {
             <div className="link-container">
                 <div className={"techIcon"}>
                     <a className={"Github"} target={"_blank"}
-                       href={"https://github.com/MrCake4"}><FontAwesomeIcon className={"icon"}
+                       href={"https://github.com/win-vid"}><FontAwesomeIcon className={"icon"}
                                                                             icon={faGithub}
                                                                             size={icoSize}/></a>
                 </div>
