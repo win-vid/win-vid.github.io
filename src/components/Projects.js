@@ -40,6 +40,17 @@ const Projects = () => {
             <h2 id={"coding-projects"}>Coding Projects</h2>
             <hr/>
             <div className="coding-projects-container">
+                <a href={"https://github.com/win-vid/Tanker"}
+                   target={"_blank"}
+                   style={{textDecoration: "none"}}
+                >
+                    <div className={"menu__link"}>
+                        <div className={"code-project"}>
+                            <h3>Tanker</h3>
+                            <p className={"code-project-date"}>2025</p>
+                        </div>
+                    </div>
+                </a>
                 <a href={"https://showtime.f4.htw-berlin.de/ss25/bachelor/b2-licht_und_schatten/"}
                    target={"_blank"}
                     style={{textDecoration: "none"}}
