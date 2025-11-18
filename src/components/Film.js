@@ -16,6 +16,7 @@ const Film = (film) => {
         console.log("Film clicked " + link)
 
         let videoFrame = document.getElementById("videoFrame");
+        let comingSoonText = document.getElementById("comingSoonText");
         let filmNameDisplay = document.getElementById("filmName")
         let filmInformationContainer = document.getElementById("FilmInformationContainer");
         let filmDescription = document.getElementById("description");
@@ -39,10 +40,15 @@ const Film = (film) => {
         filmYop.innerText = yop;
         filmProduction.innerText = production;
 
-        // check if video frame has a src
-        console.log(videoFrame.src);
-        if(videoFrame.src == "http://localhost:3000/null" || "null") {videoFrame.hidden=true}
-        else {videoFrame.hidden=false}
+        // check if video frame has a src, if not diplay coming soon
+        // console.log(videoFrame.src);
+        if(videoFrame.src == "http://localhost:3000/null" || videoFrame.src == "null"){
+            videoFrame.hidden=true;
+            comingSoonText.hidden=false;
+        } else {
+            videoFrame.hidden=false;
+            comingSoonText.hidden=true;
+        }
 
         filmInformationContainer.scrollIntoView({ behavior: "smooth" });
     }

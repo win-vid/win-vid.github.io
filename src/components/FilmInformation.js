@@ -5,6 +5,7 @@ const FilmInformation = (dataID) => {
             <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"800rem"} hidden={true}
                     height={"600rem"} style={{border: "none", marginTop: "1.5rem", marginBottom: "1.5rem"}}
                     allowFullScreen={true}></iframe>
+            <h4 id={"comingSoonText"}>- COMING SOON -</h4>
             <h3 id={"filmName"}>TITLE</h3>
             <div className={"videoFrameContainer"}>
                 <div id={"descriptionContainer"}>

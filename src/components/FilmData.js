@@ -25,7 +25,7 @@ let filmData = {
         yop: "2021",
         desc: "Newton, a unremarkable programmer, works for a big tech company. When he finds out what iTech actually builds, his uprightness is put to the test.",
         awards: [],
-        link: "https://www.youtube.com/embed/YVEj1a_qC_o"
+        link: "https://www.youtube.com/embed/YVEj1a_qC_o?si=Cm0q8pa4m3JUqJMA&amp;controls=0"
     },
     mull: {
         name: "Müllschlucker",
@@ -36,7 +36,7 @@ let filmData = {
         yop: "2023",
         desc: "Since ages people discard their trash in a mysterious wooden door in the middle of an abandoned ruin. One day, a girl accidentally throws one of her belongings into the door. After trespassing she is confronted with humanities waste.",
         awards: [],
-        link: "https://www.youtube.com/embed/1eBDIlbKDSg"
+        link: "https://www.youtube.com/embed/1eBDIlbKDSg?si=eMKhIVDqR-ioVP8X"
     },
     cffw: {
         name: "Charlies Funny Fucking World",
@@ -47,7 +47,7 @@ let filmData = {
         yop: "2019",
         desc: "In this normal sitcom, our protagonist Charlie battles with his past trauma of causing someone elses death.",
         awards: [],
-        link: "https://www.youtube.com/embed/eGXXLLx3aTw"
+        link: "https://www.youtube.com/embed/eGXXLLx3aTw?si=dMTiHWjwp3Zbxfx0"
     },
     zeit: {
         name: "Was ist Zeit?",
@@ -58,7 +58,7 @@ let filmData = {
         yop: "2022",
         desc: "What is time? This philosophical question has occupied humanity ever since it has been able to think. The three temporal forms — \"past,\" \"present,\" and \"future\" — are embodied here by three people. They attempt to give the audience an answer to this existential question.",
         awards: [],
-        link: "https://www.youtube.com/embed/AmszTknSqzA"
+        link: "https://www.youtube.com/embed/AmszTknSqzA?si=kfrxdolIP_wlAWe5"
     },
     addi: {
         name: "Addicts",
@@ -92,7 +92,7 @@ let filmData = {
         desc: "This is a project supported by the Freie Filmwerkstatt, an independent student organization at Freie Universität Berlin.\n" +
             "The short film is based on a 1904 short film titled \"An Interesting Story.\"",
         awards: [],
-        link: "https://www.youtube.com/embed/4u8ArGuJK1Y"
+        link: "https://www.youtube.com/embed/4u8ArGuJK1Y?si=Lhva94K_bTbuOd9h"
     },
     retu: {
         name: "Reverse Turing",
