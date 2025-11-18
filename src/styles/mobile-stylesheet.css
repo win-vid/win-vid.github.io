@@ -8,6 +8,11 @@
         text-align: center;
     }
 
+    h4 {
+        width: 100%;
+        text-align: center;
+    }
+
     .Navbar-Container {
         padding: 1rem 0 !important;
     }

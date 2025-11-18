@@ -14,7 +14,7 @@ let filmData = {
             "\n" +
             "Inspired by the song “Sommer ‘89” by the band Kettcar.",
         awards: [],
-        link: null
+        link: "about:blank"
     },
     coex: {
         name: "Command Exit",
@@ -69,7 +69,7 @@ let filmData = {
         yop: "2024",
         desc: "A short film about two people who battle their addiction. Ultimately they end up meeting each other.",
         awards: [],
-        link: null
+        link: "about:blank"
     },
     cool: {
         name: "Einfach Cool bleiben",
@@ -80,7 +80,7 @@ let filmData = {
         yop: "2023",
         desc: "Two wannabe-gangster try to sell their product but get caught in a severe misunderstanding.",
         awards: [],
-        link: null
+        link: "about:blank"
     },
     shst: {
         name: "A Shorts Story",
@@ -103,7 +103,7 @@ let filmData = {
         yop: "2024",
         desc: "In a secret cooperate experiment, a human is stuck in a room full of AI's. The AI's have to find out which one of them the human is and kill him.",
         awards: [],
-        link: null
+        link: "about:blank"
     },
     winx: {
         name: "Out of Sync",
@@ -114,7 +114,7 @@ let filmData = {
         yop: "2025",
         desc: "Musa battles her exam-fear while at the same time coping with her secret love for one of her friends.",
         awards: [],
-        link: null
+        link: "about:blank"
     }
 }
 

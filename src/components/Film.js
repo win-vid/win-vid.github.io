@@ -42,7 +42,7 @@ const Film = (film) => {
 
         // check if video frame has a src, if not diplay coming soon
         // console.log(videoFrame.src);
-        if(videoFrame.src == "http://localhost:3000/null" || videoFrame.src == "null"){
+        if(videoFrame.src == "http://localhost:3000/null" || videoFrame.src === "about:blank"){
             videoFrame.hidden=true;
             comingSoonText.hidden=false;
         } else {
